@@ -1,0 +1,1056 @@
+body {
+  background-image: url('ccsjdm-school-one.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.school-requirements {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.title-1 {
+  text-align: center;
+  width: 1200px;
+  padding: 5px 0;
+  font-size: 18px;
+  border: 2px rgb(207, 207, 207);
+  border-style: hidden hidden solid hidden;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.5);
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  background-color: white;
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  border-style: hidden solid solid solid;
+  border-color: rgb(206, 202, 202);
+  border-width: 2px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: white;
+  max-width: 1186px;
+}
+
+.btns-container div {
+  border: solid 2px rgb(216, 215, 215);
+  width: 575px;
+  background-color: rgb(252, 251, 251);
+}
+
+.con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8 {
+  margin-bottom: 5px;
+  padding: 4px;
+  border-radius: 18px;
+}
+
+.con1, .con3, .con5, .con7 {
+  margin-right: 5px;
+}
+
+.btns-container input[type=file] {
+  width: 260px;
+  color: #444;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #555;
+  margin: 3px 5px;
+}
+
+.btns-container input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #084cdf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.btns-container input[type=file]::file-selector-button:hover {
+  background-color: #0d45a5;
+}
+
+.con1 label, .con2 label, .con3 label, .con4 label, .con5 label, .con6 label, .con7 label, .con8 label {
+  margin: 0 5px;
+  font-weight: 500;
+}
+
+.btns-container p {
+  border: solid 2px rgb(202, 199, 199);
+  margin: 0 0 5px 0;
+  width: 1175px;
+  text-align: center;
+  padding: 4px 0;
+  font-weight: bold;
+  border-radius: 14px;
+  background-color: rgb(252, 251, 251);
+}
+
+.student-information {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.title-2 {
+  border: 2px rgb(207, 207, 207);
+  border-style: hidden hidden solid hidden;
+  box-shadow: inset 1px 2px 3px rgb(0 0 0 / 50%);
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  background-color: white;
+  padding: 4px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.stdnt-info-con-one {
+  border-style: hidden solid solid solid;
+  border-color: rgb(206, 202, 202);
+  border-width: 0 2px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  width: 1152px;
+}
+
+.info-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(224, 221, 221);
+  background-color: rgb(252, 251, 251);
+  border-radius: 20px;
+  width: 360px;
+  padding: 4px;
+}
+
+.l-name, .f-name, .m-name {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  padding: 3px;
+  width: 320px;
+}
+
+.l-name, .f-name {
+  margin-bottom: 4px;
+}
+
+.info-one div {
+  text-align: center;
+  margin: 3px 0;
+}
+
+.info-one label {
+  width: 100px;
+  margin-right: 4px;
+}
+
+.info-one input[type=text] {
+  width: 200px;
+  margin: 3px 0;
+  padding: 4px 6px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.info-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(224, 221, 221);
+  background-color: rgb(252, 251, 251);
+  border-radius: 20px;
+  width: 360px;
+  padding: 4px;
+  height: 159px;
+}
+
+.info-two label {
+  margin-right: 4px;
+}
+
+.info-two select {
+  border-radius: 6px;
+  padding: 2px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.sex-pref, .age, .bday {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  padding: 4px;
+  width: 330px;
+}
+
+.sex-pref select {
+  width: 159px;
+  padding: 4px 5px;
+}
+
+.age input[type=number] {
+  width: 65px;
+  height: 22px;
+  padding: 2px 6px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.sex-pref, .age {
+  margin-bottom: 10px;
+}
+
+.bday #datebday, #bdaymonth {
+  margin-right: 5px;
+}
+
+.info-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(224, 221, 221);
+  background-color: rgb(252, 251, 251);
+  border-radius: 20px;
+  width: 360px;
+  padding: 4px;
+  height: 159px;
+}
+
+.info-three label {
+  margin-right: 4px;
+}
+
+.info-three input[type=text] {
+  padding: 3px 6px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.birthplace, .nationality, .part-indi-people {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  padding: 4px;
+  width: 320px;
+}
+
+.birthplace, .nationality {
+  margin-bottom: 12px;
+}
+
+.stdnt-info-con-two {
+  border-style: hidden solid solid solid;
+  border-color: rgb(206, 202, 202);
+  border-width: 2px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px 4px 4px;
+}
+
+.info-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(224, 221, 221);
+  background-color: rgb(252, 251, 251);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  padding: 4px;
+  width: 360px;
+  margin-right: 20px;
+}
+
+.info-four label {
+  margin-right: 5px;
+}
+
+.info-four input[type=text] {
+  padding: 3px 6px;
+  width: 180px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.info-four div {
+  margin: 3px 0;
+  text-align: center;
+}
+
+.house-number, .street, .brgy, .city, .province {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  padding: 4px;
+  width: 320px;
+}
+
+.info-five {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(224, 221, 221);
+  background-color: rgb(252, 251, 251);
+  border-radius: 20px;
+  padding: 4px;
+  width: 360px;
+}
+
+.religion, .email, .contact-number, .postal-code {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  padding: 4px;
+  width: 340px;
+}
+
+.religion, .email, .contact-number {
+  margin-bottom: 5px;
+}
+
+.info-five label {
+  margin-right: 5px;
+}
+
+.info-five input[type=text] {
+  padding: 3px 6px;
+  width: 180px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.info-five input[type=email] {
+  padding: 3px 6px;
+  width: 240px;
+  font-size: 16px;
+  height: 22px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.parent-information {
+  padding: 5px;
+  margin-top: 10px;
+  width: 1162px;
+}
+
+.title-3 {
+  border: 2px rgb(207, 207, 207);
+  border-style: solid;
+  box-shadow: inset 1px 2px 3px rgb(0 0 0 / 50%);
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px 0;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.subtitle {
+  border: 2px rgb(207, 207, 207);
+  border-style: hidden hidden solid hidden;
+  box-shadow: inset 1px 2px 3px rgb(0 0 0 / 50%);
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  background-color: white;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.parent-info-container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-color: rgb(206, 202, 202);
+  border-width: 0 2px 2px 2px;
+  border-style: hidden solid solid solid;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  padding: 4px;
+}
+
+.parent-info-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(224, 221, 221);
+  background-color: rgb(252, 251, 251);
+  border-radius: 20px;
+  width: 360px;
+  padding: 4px;
+}
+
+.parent-info-one div {
+  margin: 3px 0;
+  text-align: center;
+}
+
+.parent-info-one label {
+  margin-right: 5px;
+}
+
+.parent-info-one input[type=text] {
+  width: 200px;
+  margin: 3px 0;
+  padding: 4px 6px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.parent-l-name, .parent-f-name, .parent-m-name {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  padding: 3px;
+  width: 320px;
+}
+
+.parent-info-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(224, 221, 221);
+  background-color: rgb(252, 251, 251);
+  border-radius: 20px;
+  width: 360px;
+  padding: 4px;
+  height: 240px;
+}
+
+.parent-age, .parent-bday, .parent-birthplace, .parent-religion, .parent-nationality {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  padding: 4px;
+  width: 330px;
+}
+
+.parent-bday #mother-bday-day, #mother-bday-month {
+  margin-right: 5px;
+}
+
+.parent-info-two label {
+  margin-right: 5px;
+}
+
+.parent-info-two input[type=number] {
+  width: 65px;
+  height: 22px;
+  padding: 2px 6px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.parent-info-two select {
+  border-radius: 6px;
+  padding: 2px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.parent-info-two input[type=text] {
+  width: 200px;
+  height: 22px;
+  padding: 2px 6px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.parent-age, .parent-bday, .parent-birthplace, .parent-religion {
+  margin-bottom: 10px;
+}
+
+.parent-info-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(224, 221, 221);
+  background-color: rgb(252, 251, 251);
+  border-radius: 20px;
+  width: 360px;
+  padding: 4px;
+  height: 256px;
+}
+
+.parent-info-three label {
+  margin-right: 5px;
+}
+
+.parent-info-three select {
+  border-radius: 6px;
+  padding: 2px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.parent-info-three input[type=text] {
+  width: 230px;
+  height: 22px;
+  padding: 2px 6px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.parent-info-three input[type=email] {
+  padding: 3px 6px;
+  width: 260px;
+  font-size: 16px;
+  height: 22px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.parent-bg-educ, .parent-address, .parent-email, .parent-contact-number {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  padding: 4px;
+  width: 330px;
+}
+
+.parent-bg-educ, .parent-address, .parent-email {
+  margin-bottom: 5px;
+}
+
+#mother-email, #mother-address, #mother-educ-attainment {
+  margin-top: 3px;
+}
+
+#father-bday-day, #father-bday-month {
+  margin-right: 5px;
+}
+
+#father-email, #father-address, #father-educ-attainment {
+  margin-top: 3px;
+}
+
+#guardian-bday-day, #guardian-bday-month {
+  margin-right: 5px;
+}
+
+#guardian-email, #guardian-address, #guardian-educ-attainment {
+  margin-top: 3px;
+}
+
+.student-educational-bg {
+  margin-top: 10px;
+  padding: 5px;
+  width: 1150px;
+}
+
+.title-4 {
+  border: 2px rgb(207, 207, 207);
+  border-style: hidden hidden solid hidden;
+  box-shadow: inset 1px 2px 3px rgb(0 0 0 / 50%);
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  background-color: white;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.student-bg-educ-container {
+  border-color: rgb(206, 202, 202);
+  border-width: 0 2px 2px 2px;
+  border-style: hidden solid solid solid;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+
+.elementary-educ-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(224, 221, 221);
+  background-color: rgb(252, 251, 251);
+  border-radius: 20px;
+  width: 550px;
+  padding: 4px;
+}
+
+.school-name, .school-address, .date-of-grad {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  padding: 4px;
+  width: 500px;
+}
+
+.juniorhigh-educ-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(224, 221, 221);
+  background-color: rgb(252, 251, 251);
+  border-radius: 20px;
+  width: 550px;
+  padding: 4px;
+}
+
+.elementary-educ-container input[type=text], .juniorhigh-educ-container input[type=text] {
+  width: 250px;
+  margin: 3px 0;
+  padding: 4px 6px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.elementary-educ-container label, .juniorhigh-educ-container label {
+  margin-right: 5px;
+}
+
+.elementary-educ-container select, .juniorhigh-educ-container select {
+  border-radius: 6px;
+  padding: 2px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.elementary-educ-container div, .juniorhigh-educ-container div {
+  margin: 3px 0;
+  text-align: center;
+}
+
+.shs-applied-for {
+  padding: 5px;
+  width: 970px;
+  margin-top: 10px;
+}
+
+.title-5 {
+  border: 2px rgb(207, 207, 207);
+  border-style: hidden hidden solid hidden;
+  box-shadow: inset 1px 2px 3px rgb(0 0 0 / 50%);
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  background-color: white;
+  padding: 4px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.shs-applied-for-container {
+  border-color: rgb(206, 202, 202);
+  border-width: 0 2px 2px 2px;
+  border-style: hidden solid solid solid;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+
+.first-choice {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.choices {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.choices input[type=text] {
+  padding: 4px 6px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+  width: 300px;
+}
+
+.choices label {
+  margin-right: 5px;
+}
+
+.second-choice {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.options-container {
+  background-color: orange;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.question {
+  margin-bottom: 4px;
+  width: 270px;
+  margin-left: 5px;
+  letter-spacing: 1px;
+}
+
+textarea {
+  padding: 12px 20px;
+  width: 95%;
+  height: 170px;
+  resize: none;
+  border: solid 2px #ccc;
+  border-radius: 4px;
+  margin: 0 0 0 8px;
+  box-sizing: border-box;
+  box-shadow: rgb(0 0 0 / 5%) 1px 2px 3px 0 inset;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-information {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.title-6 {
+  border: 2px rgb(207, 207, 207);
+  border-style: hidden hidden solid hidden;
+  box-shadow: inset 1px 2px 3px rgb(0 0 0 / 50%);
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  background-color: white;
+  padding: 4px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.contact-info-container {
+  border-color: rgb(206, 202, 202);
+  border-width: 0 2px 2px 2px;
+  border-style: hidden solid solid solid;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px;
+  width: 960px;
+}
+
+.contact-info-container label {
+  margin-right: 5px;
+}
+
+.contact-info-container input[type=text] {
+  width: 200px;
+  margin: 3px 0;
+  padding: 4px 6px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.contact-info-container input[type=email] {
+  padding: 3px 6px;
+  width: 260px;
+  font-size: 16px;
+  height: 22px;
+  border-radius: 8px;
+  border: inset 1px rgb(118, 118, 118);
+}
+
+.c-info-surname, .c-info-firstname, .c-info-middlename, .c-info-contact-num, .c-info-email {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.c-info-surname, .c-info-firstname, .c-info-middlename, .c-info-contact-num {
+  margin-bottom: 5px;
+}
+
+.terms-conditions {
+  margin-top: 10px;
+  padding: 5px;
+  width: 700px;
+}
+
+.title-7 {
+  border: 2px rgb(207, 207, 207);
+  border-style: hidden hidden solid hidden;
+  box-shadow: inset 1px 2px 3px rgb(0 0 0 / 50%);
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  background-color: white;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.some-text {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  padding: 4px;
+  font-size: 1.125rem;
+  margin-bottom: 3px;
+}
+
+.conditions-container {
+  border-color: rgb(206, 202, 202);
+  border-width: 0 2px 2px 2px;
+  border-style: hidden solid solid solid;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: white;
+  padding: 5px;
+}
+
+.condition {
+  border: solid 2px rgb(238, 236, 236);
+  background-color: white;
+  border-radius: 12px;
+  margin-bottom: 3px;
+  padding: 4px;
+  font-size: 1.125rem;
+}
+
+.submit-btn {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.submit-reset-btn-container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+#submit-btn {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 8px 50px 10px 8px;
+  padding: 10px 16px 10px 16px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+  width: 150px;
+  height: 45px;
+}
+
+#reset-btn {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 8px 8px 10px 8px;
+  padding: 10px 16px 10px 16px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+  width: 150px;
+  height: 45px;
+}
+
+#submit-btn:hover, #reset-btn:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+  margin: 10px 0 0 0;
+  width: 1230px;
+  border-color: rgb(85, 85, 85);
+}
+
+.websiteinfo-copyright-email {  
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0 0 0 / 40%);
+  padding: 5px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.our-email, .our-school-name, .ccsjdm-website, .data-privacy-act, .website-information {
+  color: white;
+  padding: 5px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+.our-email {
+  width: 560px;
+  text-decoration: underline;
+}
+
+.our-school-name {
+  width: 498px;
+}
+
+.ccsjdm-website {
+  width: 670px;
+  margin-bottom: 20px;
+}
+
+.ccsjdm-website a {
+  color: rgb(255, 254, 254);
+}
+
+.data-privacy-act {
+  width: 680px;
+  margin-bottom: 20px;
+}
+
+.website-information {
+  width: 260px;
+  line-height: 16px;
+}
+
+.homepage-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.return-btn {
+  text-align: center;
+  letter-spacing: 1px;
+  width: 160px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 40px;
+}
+
+.return-btn a {
+  text-decoration-color: rgb(90, 85, 85);
+}
+
+.school-name-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 10px;
+  width: 600px;
+}
+
+.logo-one {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.logo-two {
+  width: 220px;
+  height: 135px;
+}
+
+.header-title {
+  text-align: center;
+  font-size: 26px;
+  margin: 5px 0;
+  padding: 4px;
+  color: white;
+  font-weight: 700;
+  text-shadow: rgb(0 0 0) 2px 2px 0;
+}
+
+.enrollment-form-title {
+  text-align: center;
+  font-size: 16px;
+  margin: 5px 0;
+  padding: 4px;
+  font-weight: 700;
+  color: white;
+  text-shadow: rgb(0 0 0) 2px 2px 0;
+  width: 1010px;
+}
+
+.short-notice {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 4px;
+  width: 275px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0 0 0 / 20%);
+}

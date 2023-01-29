@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>HUMSS-Enrollment Form</title>
+  <link rel="stylesheet" href="form-main-stylesheet.css">
+</head>
+
+<body>
+  <form action="" class="form-container">
+    <!-- School name and logo of the school -->
+    <header class="school-name-logo">
+      <div class="logo-container">
+        <img class="logo-one" src="logo1.png" alt="ccsjdm-logo">
+        <img class="logo-two" src="logo2.png" alt="deped-logo">
+      </div>
+      <div class="header-title">
+        CITY COLLEGE OF SAN JOSE DEL MONTE - SENIOR HIGH SCHOOL ENROLLMENT FORM
+      </div>
+      <div class="enrollment-form-title">
+        THIS IS THE OFFICIAL ENROLLMENT FORM OF CITY COLLEGE OF SAN JOSE DEL MONTE: SENIOR HIGH SCHOOL DEPARTMENT
+      </div>
+      <div class="short-notice">
+        THIS FORM IS NOT FOR SALE
+      </div>
+    </header>
+    <!-- School Requirements section -->
+    <section class="school-requirements">
+      <div class="title-1">SCHOOL REQUIREMENTS</div>
+      <div class="btns-container">
+        <p>Note: Allowed only files with extension (.jpg, .png, .doc/.docx, .pdf)</p>
+        <div class="con1">
+          <label for="file-one">Form 137 (School Form 10)</label>
+          <input type="file" name="upload-file" id="file-one" accept="image/*,.doc,.pdf,application/msword" required>
+        </div>
+        <div class="con2">
+          <label for="file-two">School Form 9 (Report Card)</label>
+          <input type="file" name="upload-file" id="file-two" required>
+        </div>
+        <div class="con3">
+          <label for="file-three">PSA Birth Certificate</label>
+          <input type="file" name="upload-file" id="file-three" required>
+        </div>
+        <div class="con4">
+          <label for="file-four">Good Moral of Completion</label>
+          <input type="file" name="upload-file" id="file-four" required>
+        </div>
+        <div class="con5">
+          <label for="file-five">Certificate of Completion</label>
+          <input type="file" name="upload-file" id="file-five" required>
+        </div>
+        <div class="con6">
+          <label for="file-six">ESC Voucher Certificate (if applicable)</label>
+          <input type="file" name="upload-file" id="file-six" required>
+        </div>
+        <div class="con7">
+          <label for="file-seven">Junior High School Diploma</label>
+          <input type="file" name="upload-file" id="file-seven" required>
+        </div>
+        <div class="con8">
+          <label for="file-nine">2x2 Picture</label>
+          <input type="file" name="upload-file" id="file-nine" required>
+        </div>
+      </div>
+    </section>
+    <!-- Student's Personal Information section -->
+    <section class="student-information">
+      <div class="title-2">STUDENT'S PERSONAL INFORMATION</div>
+      <div class="stdnt-info-con-one">
+        <div class="info-one">
+          <div>Full name</div>
+          <div class="l-name">
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname" placeholder="Last name" required />
+          </div>
+          <div class="f-name">
+            <label for="firstname">First name</label>
+            <input type="text" name="firtname" id="firstname" placeholder="First name" required />
+          </div>
+          <div class="m-name">
+            <label for="middlename">Middle name</label>
+            <input type="text" name="middlename" id="middlename" placeholder="Middle nam" required />
+          </div>
+        </div>
+        <div class="info-two">
+          <div class="sex-pref">
+            <label for="gender">Sex</label>
+            <select name="sex-pref" id="gender" required>
+              <option></option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>I preferred not to say</option>
+            </select>
+          </div>
+          <div class="age">
+            <label for="age">Age</label>
+            <input type="number" name="Age" id="age" min="1" max="99" required>
+          </div>
+          <div class="bday">
+            <label for="datebday">Date of Birth</label>
+            <select name="BirthDay" id="datebday" required>
+              <option value="-1">Day:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="BirthdayMonth" id="bdaymonth" required>
+              <option value="-1">Month:</option>
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+            <select name="BirthdayYear" id="bdayyear" required>
+              <option value="-1">Year:</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+              <option value="1998">1998</option>
+              <option value="1997">1997</option>
+              <option value="1996">1996</option>
+              <option value="1995">1995</option>
+              <option value="1994">1994</option>
+              <option value="1993">1993</option>
+              <option value="1992">1992</option>
+              <option value="1991">1991</option>
+              <option value="1990">1990</option>
+              <option value="1989">1989</option>
+              <option value="1988">1988</option>
+              <option value="1987">1987</option>
+              <option value="1986">1986</option>
+              <option value="1985">1985</option>
+              <option value="1984">1984</option>
+              <option value="1983">1983</option>
+              <option value="1982">1982</option>
+              <option value="1981">1981</option>
+              <option value="1980">1980</option>
+            </select>
+          </div>
+        </div>
+        <div class="info-three">
+          <div class="birthplace">
+            <label for="birthplace">Place of Birth</label>
+            <input type="text" name="Place Of Birth" id="birthplace" required />
+          </div>
+          <div class="nationality">
+            <label for="nationality">Nationality</label>
+            <input type="text" name="Nationality" id="nationality" required />
+          </div>
+          <div class="part-indi-people">
+            <label for="indigenous-people">Part of Indigenous People?</label>
+            <input type="radio" name="decision" value="yes" id="yes" required>
+            <label for="yes">Yes</label>
+            <input type="radio" name="decision" value="no" id="no" required>
+            <label for="no">No</label>
+          </div>
+        </div>
+      </div>
+      <div class="stdnt-info-con-two">
+        <div class="info-four">
+          <div>Complete Address</div>
+          <div class="house-number">
+            <label for="house-num">House no.</label>
+            <input type="text" name="house-number" id="house-num" required>
+          </div>
+          <div class="street">
+            <label for="street">Street</label>
+            <input type="text" name="street" id="street" required>
+          </div>
+          <div class="brgy">
+            <label for="brgy">Barangay</label>
+            <input type="text" name="barangay" id="brgy" required>
+          </div>
+          <div class="city">
+            <label for="municipality">City</label>
+            <input type="text" name="city" id="municipality" required>
+          </div>
+          <div class="province">
+            <label for="province">Province</label>
+            <input type="text" name="province" id="province" required>
+          </div>
+        </div>
+        <div class="info-five">
+          <div class="religion">
+            <label for="religion">Religion</label>
+            <input type="text" name="religion" id="religion" required>
+          </div>
+          <div class="email">
+            <label for="email">Email</label>
+            <input type="email" name="email-address" id="email" required>
+          </div>
+          <div class="contact-number">
+            <label for="contact-num">Contact number</label>
+            <input type="text" name="contact-number" id="contact-num" maxlength="11" required>
+          </div>
+          <div class="postal-code">
+            <label for="zip-code">Postal code</label>
+            <input type="text" name="postal-code" id="zip-code" required>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Parent's Personal Information section -->
+    <section class="parent-information">
+      <div class="title-3">PARENT'S INFORMATION</div>
+      <!-- Mother's Personal Information -->
+      <div class="subtitle">MOTHER'S INFORMATION</div>
+      <div class="parent-info-container">
+        <div class="parent-info-one">
+          <div>Mother's Maiden Name</div>
+          <div class="parent-l-name">
+            <label for="mother-surname">Surname</label>
+            <input type="text" name="surname" id="mother-surname" placeholder="Last name" required>
+          </div>
+          <div class="parent-f-name">
+            <label for="mother-firstname">First name</label>
+            <input type="text" name="firstname" id="mother-firstname" placeholder="First name" required>
+          </div>
+          <div class="parent-m-name">
+            <label for="mother-middlename">Middle name</label>
+            <input type="text" name="middlename" id="mother-middlename" placeholder="Middle name" required>
+          </div>
+        </div>
+        <div class="parent-info-two">
+          <div class="parent-age">
+            <label for="mother-age">Age:</label>
+            <input type="number" name="age" id="mother-age" min="1" max="99" required>
+          </div>
+          <div class="parent-bday">
+            <label for="mother-bday-day">Date of Birth</label>
+            <select name="BirthDay" id="mother-bday-day" required>
+              <option value="-1">Day:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="BirthdayMonth" id="mother-bday-month" required>
+              <option value="-1">Month:</option>
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+            <select name="BirthdayYear" id="mother-bday-year" required>
+              <option value="-1">Year:</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+              <option value="1998">1998</option>
+              <option value="1997">1997</option>
+              <option value="1996">1996</option>
+              <option value="1995">1995</option>
+              <option value="1994">1994</option>
+              <option value="1993">1993</option>
+              <option value="1992">1992</option>
+              <option value="1991">1991</option>
+              <option value="1990">1990</option>
+              <option value="1989">1989</option>
+              <option value="1988">1988</option>
+              <option value="1987">1987</option>
+              <option value="1986">1986</option>
+              <option value="1985">1985</option>
+              <option value="1984">1984</option>
+              <option value="1983">1983</option>
+              <option value="1982">1982</option>
+              <option value="1981">1981</option>
+              <option value="1980">1980</option>
+            </select>
+          </div>
+          <div class="parent-birthplace">
+            <label for="mother-birthplace">Place of Birth</label>
+            <input type="text" name="birthplace" id="mother-birthplace" required>
+          </div>
+          <div class="parent-religion">
+            <label for="mother-religion">Religion</label>
+            <input type="text" name="religion" id="mother-religion" required>
+          </div>
+          <div class="parent-nationality">
+            <label for="mother-nationality">Nationality</label>
+            <input type="text" name="nationality" id="mother-nationality" required>
+          </div>
+        </div>
+        <div class="parent-info-three">
+          <div class="parent-bg-educ">
+            <label for="mother-educ-attainment">Highest Educational Attainment</label>
+            <select id="mother-educ-attainment" name="Education" required>
+              <option value="Elementary">Elementary</option>
+              <option value="High school">High school</option>
+              <option value="senior highschool">Senior Highschool</option>
+              <option value="college">College</option>
+              <option value="post-graduate">Post-graduate</option>
+            </select>
+          </div>
+          <div class="parent-address">
+            <label for="mother-address">Complete Address</label>
+            <input type="text" name="address" id="mother-address" required>
+          </div>
+          <div class="parent-email">
+            <label for="mother-email">Email Address</label>
+            <input type="email" name="email" id="mother-email" placeholder="Enter email" required>
+          </div>
+          <div class="parent-contact-number">
+            <label for="mother-num">Contact Number</label>
+            <input type="text" name="contact-number" id="mother-num" required maxlength="11">
+          </div>
+        </div>
+      </div>
+      <!-- Father's Personal Information -->
+      <div class="subtitle">FATHER'S INFORMATION</div>
+      <div class="parent-info-container">
+        <div class="parent-info-one">
+          <div>Father's Full Name</div>
+          <div class="parent-l-name">
+            <label for="father-surname">Surname</label>
+            <input type="text" name="surname" id="father-surname" placeholder="Last name" required>
+          </div>
+          <div class="parent-f-name">
+            <label for="father-firstname">First name</label>
+            <input type="text" name="firstname" id="father-firstname" placeholder="First name" required>
+          </div>
+          <div class="parent-m-name">
+            <label for="father-middlename">Middle name</label>
+            <input type="text" name="middlename" id="father-middlename" placeholder="Middle name" required>
+          </div>
+        </div>
+        <div class="parent-info-two">
+          <div class="parent-age">
+            <label for="father-age">Age:</label>
+            <input type="number" name="age" id="father-age" min="1" max="99" required>
+          </div>
+          <div class="parent-bday">
+            <label for="father-bday-day">Date of Birth</label>
+            <select name="BirthDay" id="father-bday-day" required>
+              <option value="-1">Day:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="BirthdayMonth" id="father-bday-month" required>
+              <option value="-1">Month:</option>
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+            <select name="BirthdayYear" id="father-bday-year" required>
+              <option value="-1">Year:</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+              <option value="1998">1998</option>
+              <option value="1997">1997</option>
+              <option value="1996">1996</option>
+              <option value="1995">1995</option>
+              <option value="1994">1994</option>
+              <option value="1993">1993</option>
+              <option value="1992">1992</option>
+              <option value="1991">1991</option>
+              <option value="1990">1990</option>
+              <option value="1989">1989</option>
+              <option value="1988">1988</option>
+              <option value="1987">1987</option>
+              <option value="1986">1986</option>
+              <option value="1985">1985</option>
+              <option value="1984">1984</option>
+              <option value="1983">1983</option>
+              <option value="1982">1982</option>
+              <option value="1981">1981</option>
+              <option value="1980">1980</option>
+            </select>
+          </div>
+          <div class="parent-birthplace">
+            <label for="father-birthplace">Place of Birth</label>
+            <input type="text" name="birthplace" id="father-birthplace" required>
+          </div>
+          <div class="parent-religion">
+            <label for="father-religion">Religion</label>
+            <input type="text" name="religion" id="father-religion" required>
+          </div>
+          <div class="parent-nationality">
+            <label for="father-nationality">Nationality</label>
+            <input type="text" name="nationality" id="father-nationality" required>
+          </div>
+        </div>
+        <div class="parent-info-three">
+          <div class="parent-bg-educ">
+            <label for="father-educ-attainment">Highest Educational Attainment</label>
+            <select id="father-educ-attainment" name="Education" required>
+              <option value="Elementary">Elementary</option>
+              <option value="High school">High school</option>
+              <option value="senior highschool">Senior Highschool</option>
+              <option value="college">College</option>
+              <option value="post-graduate">Post-graduate</option>
+            </select>
+          </div>
+          <div class="parent-address">
+            <label for="father-address">Complete Address</label>
+            <input type="text" name="address" id="father-address" required>
+          </div>
+          <div class="parent-email">
+            <label for="father-email">Email Address</label>
+            <input type="email" name="email" id="father-email" placeholder="Enter email" required>
+          </div>
+          <div class="parent-contact-number">
+            <label for="father-num">Contact Number</label>
+            <input type="text" name="contact-number" id="father-num" required maxlength="11">
+          </div>
+        </div>
+      </div>
+      <!-- Guardian's Personal Information -->
+      <div class="subtitle">GUARDIAN'S INFORMATION (IN CASE OF EMERGENCY)</div>
+      <div class="parent-info-container">
+        <div class="parent-info-one">
+          <div>Guardian's Full Name</div>
+          <div class="parent-l-name">
+            <label for="guardian-surname">Surname</label>
+            <input type="text" name="surname" id="guardian-surname" placeholder="Last name" required>
+          </div>
+          <div class="parent-f-name">
+            <label for="guardian-firstname">First name</label>
+            <input type="text" name="firstname" id="guardian-firstname" placeholder="First name" required>
+          </div>
+          <div class="parent-m-name">
+            <label for="guardian-middlename">Middle name</label>
+            <input type="text" name="middlename" id="guardian-middlename" placeholder="Middle name" required>
+          </div>
+        </div>
+        <div class="parent-info-two">
+          <div class="parent-age">
+            <label for="guardian-age">Age:</label>
+            <input type="number" name="age" id="guardian-age" min="1" max="99" required>
+          </div>
+          <div class="parent-bday">
+            <label for="guardian-bday-day">Date of Birth</label>
+            <select name="BirthDay" id="guardian-bday-day" required>
+              <option value="-1">Day:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="BirthdayMonth" id="guardian-bday-month" required>
+              <option value="-1">Month:</option>
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+            <select name="BirthdayYear" id="guardian-bday-year" required>
+              <option value="-1">Year:</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+              <option value="1998">1998</option>
+              <option value="1997">1997</option>
+              <option value="1996">1996</option>
+              <option value="1995">1995</option>
+              <option value="1994">1994</option>
+              <option value="1993">1993</option>
+              <option value="1992">1992</option>
+              <option value="1991">1991</option>
+              <option value="1990">1990</option>
+              <option value="1989">1989</option>
+              <option value="1988">1988</option>
+              <option value="1987">1987</option>
+              <option value="1986">1986</option>
+              <option value="1985">1985</option>
+              <option value="1984">1984</option>
+              <option value="1983">1983</option>
+              <option value="1982">1982</option>
+              <option value="1981">1981</option>
+              <option value="1980">1980</option>
+            </select>
+          </div>
+          <div class="parent-birthplace">
+            <label for="guardian-birthplace">Place of Birth</label>
+            <input type="text" name="birthplace" id="guardian-birthplace" required>
+          </div>
+          <div class="parent-religion">
+            <label for="guardian-religion">Religion</label>
+            <input type="text" name="religion" id="guardian-religion" required>
+          </div>
+          <div class="parent-nationality">
+            <label for="guardian-nationality">Nationality</label>
+            <input type="text" name="nationality" id="guardian-nationality" required>
+          </div>
+        </div>
+        <div class="parent-info-three">
+          <div class="parent-bg-educ">
+            <label for="guardian-educ-attainment">Highest Educational Attainment</label>
+            <select id="guardian-educ-attainment" name="Education" required>
+              <option value="Elementary">Elementary</option>
+              <option value="High school">High school</option>
+              <option value="senior highschool">Senior Highschool</option>
+              <option value="college">College</option>
+              <option value="post-graduate">Post-graduate</option>
+            </select>
+          </div>
+          <div class="parent-address">
+            <label for="guardian-address">Complete Address</label>
+            <input type="text" name="address" id="guardian-address" required>
+          </div>
+          <div class="parent-email">
+            <label for="guardian-email">Email Address</label>
+            <input type="email" name="email" id="guardian-email" placeholder="Enter email" required>
+          </div>
+          <div class="parent-contact-number">
+            <label for="guardian-num">Contact Number</label>
+            <input type="text" name="contact-number" id="guardian-num" required maxlength="11">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Student's Educational Background section -->
+    <section class="student-educational-bg">
+      <div class="title-4">STUDENT'S EDUCATIONAL BACKGROUND</div>
+      <div class="student-bg-educ-container">
+        <div class="elementary-educ-container">
+          <div class="school-name">
+            <label for="elem-sname">Elementary School Name</label>
+            <input type="text" name="school-name" id="elem-sname">
+          </div>
+          <div class="school-address">
+            <label for="elem-sc-address">Address of School</label>
+            <input type="text" name="school-address" id="elem-sc-address">
+          </div>
+          <div class="date-of-grad">
+            <label for="elem-grad-day">Month & Year of Graduation</label>
+            <select name="grad-day" id="elem-grad-day">
+              <option value="-1">Day:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="grad-month" id="elem-grad-month">
+              <option value="-1">Month:</option>
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+            <select name="grad-year" id="elem-grad-year">
+              <option value="-1">Year:</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+              <option value="1998">1998</option>
+              <option value="1997">1997</option>
+              <option value="1996">1996</option>
+              <option value="1995">1995</option>
+              <option value="1994">1994</option>
+              <option value="1993">1993</option>
+              <option value="1992">1992</option>
+              <option value="1991">1991</option>
+              <option value="1990">1990</option>
+              <option value="1989">1989</option>
+              <option value="1988">1988</option>
+              <option value="1987">1987</option>
+              <option value="1986">1986</option>
+              <option value="1985">1985</option>
+              <option value="1984">1984</option>
+              <option value="1983">1983</option>
+              <option value="1982">1982</option>
+              <option value="1981">1981</option>
+              <option value="1980">1980</option>
+            </select>
+          </div>
+        </div>
+        <div class="juniorhigh-educ-container">
+          <div class="school-name">
+            <label for="jhs-sname">Junior High School Name</label>
+            <input type="text" name="school-name" id="jhs-sname">
+          </div>
+          <div class="school-address">
+            <label for="jhs-sc-address">Address of School</label>
+            <input type="text" name="school-address" id="jhs-sc-address">
+          </div>
+          <div class="date-of-grad">
+            <label for="jhs-grad-day">Month & Year of Graduation</label>
+            <select name="grad-day" id="jhs-grad-day">
+              <option value="-1">Day:</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="grad-month" id="jhs-grad-month">
+              <option value="-1">Month:</option>
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+            <select name="grad-year" id="jhs-grad-year">
+              <option value="-1">Year:</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+              <option value="1998">1998</option>
+              <option value="1997">1997</option>
+              <option value="1996">1996</option>
+              <option value="1995">1995</option>
+              <option value="1994">1994</option>
+              <option value="1993">1993</option>
+              <option value="1992">1992</option>
+              <option value="1991">1991</option>
+              <option value="1990">1990</option>
+              <option value="1989">1989</option>
+              <option value="1988">1988</option>
+              <option value="1987">1987</option>
+              <option value="1986">1986</option>
+              <option value="1985">1985</option>
+              <option value="1984">1984</option>
+              <option value="1983">1983</option>
+              <option value="1982">1982</option>
+              <option value="1981">1981</option>
+              <option value="1980">1980</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Senior High School Applied for section -->
+    <section class="shs-applied-for">
+      <div class="title-5">SENIOR HIGH SCHOOL APPLIED FOR</div>
+      <div class="shs-applied-for-container">
+        <div class="first-choice">
+          <div class="choices">
+            <label for="choices-1">FIRST CHOICE</label>
+            <input type="text" list="strands-op1" id="choices-1" required>
+            <datalist id="strands-op1">
+              <option value="ABM-Accountancy, Business and Management">ABM-Accountancy, Business and
+                Management</option>
+              <option value="HUMSS-Humanities, and Social Sciences">HUMSS-Humanities, and Social Sciences
+              </option>
+              <option value="GAS-General Academics Strand">GAS-General Academics Strand</option>
+              <option value="TVL-Technical-Vocational Livelihood">TVL-Technical-Vocational Livelihood
+              </option>
+            </datalist>
+          </div>
+          <div class="reason">
+            <div class="question">Why did you choose this strand?</div>
+            <textarea name="answer" placeholder="Explain your answer..." required></textarea>
+          </div>
+        </div>
+        <div class="second-choice">
+          <div class="choices">
+            <label for="choice-2">SECOND CHOICE</label>
+            <input type="text" list="strands-op2" id="choices-2" required>
+            <datalist id="strands-op2">
+              <option value="ABM-Accountancy, Business and Management">ABM-Accountancy, Business and
+                Management</option>
+              <option value="HUMSS-Humanities, and Social Sciences">HUMSS-Humanities, and Social Sciences
+              </option>
+              <option value="GAS-General Academics Strand">GAS-General Academics Strand</option>
+              <option value="TVL-Technical-Vocational Livelihood">TVL-Technical-Vocational Livelihood
+              </option>
+            </datalist>
+          </div>
+          <div class="reason">
+            <div class="question">Why did you choose this strand?</div>
+            <textarea name="answer" placeholder="Explain your answer..." required></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Information section -->
+    <section class="contact-information">
+      <div class="title-6">CONTACT INFORMATION</div>
+      <div class="contact-info-container">
+        <div class="c-info-surname">
+          <label for="lastname">Surname</label>
+          <input type="text" name="surname" id="lastname" placeholder="Last name" required>
+        </div>
+        <div class="c-info-firstname">
+          <label for="f-name">First name</label>
+          <input type="text" name="firstname" id="f-name" placeholder="First name" required>
+        </div>
+        <div class="c-info-middlename">
+          <label for="m-name">Middle name</label>
+          <input type="text" name="middlename" id="m-name" placeholder="Middle name" required>
+        </div>
+        <div class="c-info-contact-num">
+          <label for="c-num">Contact number</label>
+          <input type="text" name="contact-number" id="c-num" maxlength="11" required>
+        </div>
+        <div class="c-info-email">
+          <label for="c-email-add">Email</label>
+          <input type="email" name="email" id="c-email-add" placeholder="Enter email" required>
+        </div>
+      </div>
+    </section>
+    <!-- Terms and Conditions section -->
+    <section class="terms-conditions">
+      <div class="title-7">Terms & Conditions (Data Privacy Act of 2012)</div>
+      <div class="conditions-container">
+        <div class="some-text">I affirm that:</div>
+        <div class="condition">
+          <input type="checkbox" name="condition-one" id="checkbox-one" required>
+          <label for="checkbox-one">I have read the information contained in Deped Order No. <ins>26</ins>, s. 2015 and
+            understood all the instructions in connection with my registration;
+          </label>
+        </div>
+        <div class="condition">
+          <input type="checkbox" name="condition-two" id="checkbox-two" required>
+          <label for="checkboc-two">I have been made aware of the SHS
+            tracks and importance of choosing the right career path through the Career Guidance Program;
+          </label>
+        </div>
+        <div class="condition">
+          <input type="checkbox" name="condition-three" id="checkbox-three" required>
+          <label for="checkbox-three">The preference supplied in this
+            slip are a result of a well-informed decision making as discussed with my parent(s)/guardian;
+            and
+          </label>
+        </div>
+        <div class="condition">
+          <input type="checkbox" name="condition-four" id="checkbox-four" required>
+          <label for="checkbox-four">I will abide by the Deped rules
+            and policies in relation to the SHS program.
+          </label>
+        </div>
+        <div class="condition">
+          <input type="checkbox" name="condition-five" id="checkbox-five" required>
+          <label for="checkbox-five">Furthermore, I understand that all
+            information I provide in this form may be used by the Department of Education and I consent to
+            such with the assurance that my personal details will be kept confidential.
+          </label>
+        </div>
+      </div>
+    </section>
+    <!-- Submit button -->
+    <section class="submit-btn">
+      <div class="submit-reset-btn-container">
+        <input type="submit" id="submit-btn" name="submit-button" value="Submit Form">
+        <input type="reset" id="reset-btn" name="reset-button" value="Reset Form">
+      </div>
+    </section>
+    <hr>
+    <!-- Footer section -->
+    <footer class="websiteinfo-copyright-email">
+      <div class="footer-container">
+        <div class="our-email">
+          For any concerns and feedbacks, please email us at ccsjdm2017@gmail.com
+        </div>
+        <div class="our-school-name">
+          City College of San Jose Del Monte: Senior High School Department
+        </div>
+        <div class="ccsjdm-website">
+          For more info about City College of San Jose Del Monte, please visit this website &#62;
+          <a href="https://ccsjdm.edu.ph/about-us/" target="_blank" rel="noopener">About Us</a>
+        </div>
+        <div class="data-privacy-act">
+          The information herein shall be treated as confidential as compliance with Data Privacy Act of 2012.
+        </div>
+        <div class="website-information">
+          Copyright 2023. All Rights Reserved. All data colected is safe and secure. CCSJDM-SHS Enrollment website is
+          powered by HTML & CSS.
+        </div>
+      </div>
+    </footer>
+  </form>
+  <!-- Homepage/landing page link -->
+  <nav class="homepage-btn">
+    <div class="return-btn">
+      <a href="index.html" target="_parent" rel="noopener">Back to Homepage</a>
+    </div>
+  </nav>
+</body>
+
+</html>
