@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TVL-Enrollment Form</title>
   <link rel="stylesheet" href="form-main-stylesheet.css">
 </head>
@@ -36,31 +37,31 @@
         </div>
         <div class="con2">
           <label for="file-two">School Form 9 (Report Card)</label>
-          <input type="file" name="upload-file" id="file-two" required>
+          <input type="file" name="upload-file" id="file-two" accept="image/*,.doc,.pdf,application/msword" required>
         </div>
         <div class="con3">
           <label for="file-three">PSA Birth Certificate</label>
-          <input type="file" name="upload-file" id="file-three" required>
+          <input type="file" name="upload-file" id="file-three" accept="image/*,.doc,.pdf,application/msword" required>
         </div>
         <div class="con4">
           <label for="file-four">Good Moral of Completion</label>
-          <input type="file" name="upload-file" id="file-four" required>
+          <input type="file" name="upload-file" id="file-four" accept="image/*,.doc,.pdf,application/msword" required>
         </div>
         <div class="con5">
           <label for="file-five">Certificate of Completion</label>
-          <input type="file" name="upload-file" id="file-five" required>
+          <input type="file" name="upload-file" id="file-five" accept="image/*,.doc,.pdf,application/msword" required>
         </div>
         <div class="con6">
           <label for="file-six">ESC Voucher Certificate (if applicable)</label>
-          <input type="file" name="upload-file" id="file-six" required>
+          <input type="file" name="upload-file" id="file-six" accept="image/*,.doc,.pdf,application/msword" required>
         </div>
         <div class="con7">
           <label for="file-seven">Junior High School Diploma</label>
-          <input type="file" name="upload-file" id="file-seven" required>
+          <input type="file" name="upload-file" id="file-seven" accept="image/*,.doc,.pdf,application/msword" required>
         </div>
         <div class="con8">
           <label for="file-nine">2x2 Picture</label>
-          <input type="file" name="upload-file" id="file-nine" required>
+          <input type="file" name="upload-file" id="file-nine" accept="image/*,.doc,.pdf,application/msword" required>
         </div>
       </div>
     </section>
@@ -80,7 +81,7 @@
           </div>
           <div class="m-name">
             <label for="middlename">Middle name</label>
-            <input type="text" name="middlename" id="middlename" placeholder="Middle nam" required />
+            <input type="text" name="middlename" id="middlename" placeholder="Middle name" required />
           </div>
         </div>
         <div class="info-two">
@@ -95,7 +96,7 @@
           </div>
           <div class="age">
             <label for="age">Age</label>
-            <input type="number" name="Age" id="age" min="1" max="99" required>
+            <input type="number" name="Age" id="age" required>
           </div>
           <div class="bday">
             <label for="datebday">Date of Birth</label>
@@ -204,9 +205,9 @@
           </div>
           <div class="part-indi-people">
             <label for="indigenous-people">Part of Indigenous People?</label>
-            <input type="radio" name="decision" value="yes" id="yes" required>
+            <input type="radio" name="decision" value="yes" id="yes">
             <label for="yes">Yes</label>
-            <input type="radio" name="decision" value="no" id="no" required>
+            <input type="radio" name="decision" value="no" id="no">
             <label for="no">No</label>
           </div>
         </div>
@@ -242,7 +243,7 @@
           </div>
           <div class="email">
             <label for="email">Email</label>
-            <input type="email" name="email-address" id="email" required>
+            <input type="email" name="email-address" id="email" placeholder="Enter email" required>
           </div>
           <div class="contact-number">
             <label for="contact-num">Contact number</label>
@@ -278,8 +279,8 @@
         </div>
         <div class="parent-info-two">
           <div class="parent-age">
-            <label for="mother-age">Age:</label>
-            <input type="number" name="age" id="mother-age" min="1" max="99" required>
+            <label for="mother-age">Age</label>
+            <input type="number" name="age" id="mother-age" required>
           </div>
           <div class="parent-bday">
             <label for="mother-bday-day">Date of Birth</label>
@@ -434,8 +435,8 @@
         </div>
         <div class="parent-info-two">
           <div class="parent-age">
-            <label for="father-age">Age:</label>
-            <input type="number" name="age" id="father-age" min="1" max="99" required>
+            <label for="father-age">Age</label>
+            <input type="number" name="age" id="father-age" required>
           </div>
           <div class="parent-bday">
             <label for="father-bday-day">Date of Birth</label>
@@ -590,8 +591,8 @@
         </div>
         <div class="parent-info-two">
           <div class="parent-age">
-            <label for="guardian-age">Age:</label>
-            <input type="number" name="age" id="guardian-age" min="1" max="99" required>
+            <label for="guardian-age">Age</label>
+            <input type="number" name="age" id="guardian-age" required>
           </div>
           <div class="parent-bday">
             <label for="guardian-bday-day">Date of Birth</label>
@@ -734,15 +735,15 @@
         <div class="elementary-educ-container">
           <div class="school-name">
             <label for="elem-sname">Elementary School Name</label>
-            <input type="text" name="school-name" id="elem-sname">
+            <input type="text" name="school-name" id="elem-sname" required>
           </div>
           <div class="school-address">
             <label for="elem-sc-address">Address of School</label>
-            <input type="text" name="school-address" id="elem-sc-address">
+            <input type="text" name="school-address" id="elem-sc-address" required>
           </div>
           <div class="date-of-grad">
             <label for="elem-grad-day">Month & Year of Graduation</label>
-            <select name="grad-day" id="elem-grad-day">
+            <select name="grad-day" id="elem-grad-day" required>
               <option value="-1">Day:</option>
               <option value="1">1</option>
               <option value="2">2</option>
@@ -776,7 +777,7 @@
               <option value="30">30</option>
               <option value="31">31</option>
             </select>
-            <select name="grad-month" id="elem-grad-month">
+            <select name="grad-month" id="elem-grad-month" required>
               <option value="-1">Month:</option>
               <option value="January">January</option>
               <option value="February">February</option>
@@ -791,7 +792,7 @@
               <option value="November">November</option>
               <option value="December">December</option>
             </select>
-            <select name="grad-year" id="elem-grad-year">
+            <select name="grad-year" id="elem-grad-year" required>
               <option value="-1">Year:</option>
               <option value="2019">2019</option>
               <option value="2018">2018</option>
@@ -839,15 +840,15 @@
         <div class="juniorhigh-educ-container">
           <div class="school-name">
             <label for="jhs-sname">Junior High School Name</label>
-            <input type="text" name="school-name" id="jhs-sname">
+            <input type="text" name="school-name" id="jhs-sname" required>
           </div>
           <div class="school-address">
             <label for="jhs-sc-address">Address of School</label>
-            <input type="text" name="school-address" id="jhs-sc-address">
+            <input type="text" name="school-address" id="jhs-sc-address" required>
           </div>
           <div class="date-of-grad">
             <label for="jhs-grad-day">Month & Year of Graduation</label>
-            <select name="grad-day" id="jhs-grad-day">
+            <select name="grad-day" id="jhs-grad-day" required>
               <option value="-1">Day:</option>
               <option value="1">1</option>
               <option value="2">2</option>
@@ -881,7 +882,7 @@
               <option value="30">30</option>
               <option value="31">31</option>
             </select>
-            <select name="grad-month" id="jhs-grad-month">
+            <select name="grad-month" id="jhs-grad-month" required>
               <option value="-1">Month:</option>
               <option value="January">January</option>
               <option value="February">February</option>
@@ -896,7 +897,7 @@
               <option value="November">November</option>
               <option value="December">December</option>
             </select>
-            <select name="grad-year" id="jhs-grad-year">
+            <select name="grad-year" id="jhs-grad-year" required>
               <option value="-1">Year:</option>
               <option value="2019">2019</option>
               <option value="2018">2018</option>
