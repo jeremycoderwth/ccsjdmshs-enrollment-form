@@ -108,6 +108,15 @@ body {
   background-color: rgb(252, 251, 251);
 }
 
+.con8 .picture-note {
+  font-size: 15px;
+  width: 510px;
+  margin-left: 7px;
+  padding: 3px;
+  margin-top: 2px;
+  border-radius: 10px;
+}
+
 .student-information {
   margin-top: 10px;
   padding: 5px;
@@ -1019,7 +1028,7 @@ hr {
 }
 
 .logo-two {
-  width: 220px;
+  width: 240px;
   height: 135px;
 }
 
