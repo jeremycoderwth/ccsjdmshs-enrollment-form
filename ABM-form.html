@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<link rel="shortcut icon" type="x-icon" href="logo1.png" >
+	<link rel="shortcut icon" type="x-icon" href="shs-logo1.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>ABM-Enrollment Form</title>
   <link rel="stylesheet" href="form-main-stylesheet.css">
@@ -12,7 +12,7 @@
     <!-- School name and logo of the school -->
     <header class="school-name-logo">
       <div class="logo-container">
-          <img class="logo-one" src="logo1.png" alt="ccsjdm-logo">
+          <img class="logo-one" src="shs-logo1.png" alt="ccsjdm-logo">
           <img class="logo-two" src="logo2.png" alt="deped-logo">
       </div>
       <div class="header-title">
@@ -52,7 +52,7 @@
         </div>
         <div class="con6">
           <label for="file-six">ESC Voucher Certificate (if applicable)</label>
-          <input type="file" name="upload-file" id="file-six" accept="image/*,.doc,.pdf,application/msword" required>
+          <input type="file" name="upload-file" id="file-six" accept="image/*,.doc,.pdf,application/msword">
         </div>
         <div class="con7">
           <label for="file-seven">Junior High School Diploma</label>
@@ -60,7 +60,9 @@
         </div>
         <div class="con8">
           <label for="file-nine">2x2 Picture</label>
-          <input type="file" name="upload-file" id="file-nine" accept="image/*,.doc,.pdf,application/msword" required>
+          <input type="file" name="upload-file" id="file-nine" accept="image/*,.doc,.pdf,application/msword">
+	  <div class="picture-note">Note: The picture must be white background, no glasses, no any kind of 
+		  filter and not distorted.</div>	
         </div>
       </div>
     </section>
@@ -963,7 +965,7 @@
           </div>
           <div class="reason">
             <div class="question">Why did you choose this strand?</div>
-            <textarea name="answer" placeholder="Explain your answer..." required></textarea>
+            <textarea name="answer" placeholder="Explain your answer. Write 3 sentences or more." required></textarea>
           </div>
         </div>
         <div class="second-choice">
@@ -982,7 +984,7 @@
           </div>
           <div class="reason">
             <div class="question">Why did you choose this strand?</div>
-            <textarea name="answer" placeholder="Explain your answer..." required></textarea>
+            <textarea name="answer" placeholder="Explain your answer. Write 3 sentences or more." required></textarea>
           </div>
         </div>
       </div>
@@ -1019,32 +1021,32 @@
       <div class="conditions-container">
         <div class="some-text">I affirm that:</div>
         <div class="condition">
-          <input type="checkbox" name="condition-one" id="checkbox-one" required>
+          <input type="checkbox" name="condition-one" id="checkbox-one">
           <label for="checkbox-one">I have read the information contained in Deped Order No. <ins>26</ins>, s. 2015 and  
            understood all the instructions in connection with my registration;
           </label>
         </div>
         <div class="condition">
-          <input type="checkbox" name="condition-two" id="checkbox-two" required>
+          <input type="checkbox" name="condition-two" id="checkbox-two">
           <label for="checkboc-two">I have been made aware of the SHS
             tracks and importance of choosing the right career path through the Career Guidance Program;
           </label>
         </div>
         <div class="condition">
-          <input type="checkbox" name="condition-three" id="checkbox-three" required> 
+          <input type="checkbox" name="condition-three" id="checkbox-three"> 
           <label for="checkbox-three">The preference supplied in this
             slip are a result of a well-informed decision making as discussed with my parent(s)/guardian;
             and
           </label>
         </div>
         <div class="condition">
-          <input type="checkbox" name="condition-four" id="checkbox-four" required>
+          <input type="checkbox" name="condition-four" id="checkbox-four">
           <label for="checkbox-four">I will abide by the Deped rules
             and policies in relation to the SHS program.
           </label>
         </div>
         <div class="condition">
-          <input type="checkbox" name="condition-five" id="checkbox-five" required>
+          <input type="checkbox" name="condition-five" id="checkbox-five">
           <label for="checkbox-five">Furthermore, I understand that all
             information I provide in this form may be used by the Department of Education and I consent to
             such with the assurance that my personal details will be kept confidential.
